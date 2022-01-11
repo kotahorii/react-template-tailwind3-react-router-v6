@@ -1,6 +1,6 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom"
 export const Todo = () => {
-  const navigate = useNavigate();
+  const navigate = useNavigate()
   return (
     <div className="flex justify-center items-center flex-col min-h-screen text-gray-600 font-mono">
       <h1>Todo</h1>
@@ -11,5 +11,5 @@ export const Todo = () => {
         Navigate to Auth
       </button>
     </div>
-  );
-};
+  )
+}
